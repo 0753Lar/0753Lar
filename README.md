@@ -16,8 +16,5 @@ Here are some ideas to get you started:
 -->
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=0753Ljuc&layout=compact&theme=ambient_gradient)](https://github.com/anuraghazra/github-readme-stats)
-
-
-[![0753's GitHub stats](https://github-readme-stats.vercel.app/api?username=0753Ljuc&theme=ambient_gradient)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=0753Ljuc&layout=compact&theme=ambient_gradient)](https://github.com/anuraghazra/github-readme-stats)   [![0753's GitHub stats](https://github-readme-stats.vercel.app/api?username=0753Ljuc&theme=ambient_gradient)](https://github.com/anuraghazra/github-readme-stats)
 
