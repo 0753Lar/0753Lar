@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+    <style>
+      @-webkit-keyframes shakeY {
+        0%,
+        to {
+          -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+        }
+        10%,
+        30%,
+        50%,
+        70%,
+        90% {
+          -webkit-transform: translate3d(0, -10px, 0);
+          transform: translate3d(0, -10px, 0);
+        }
+        20%,
+        40%,
+        60%,
+        80% {
+          -webkit-transform: translate3d(0, 10px, 0);
+          transform: translate3d(0, 10px, 0);
+        }
+      }
+      @keyframes shakeY {
+        0%,
+        to {
+          -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+        }
+        10%,
+        30%,
+        50%,
+        70%,
+        90% {
+          -webkit-transform: translate3d(0, -10px, 0);
+          transform: translate3d(0, -10px, 0);
+        }
+        20%,
+        40%,
+        60%,
+        80% {
+          -webkit-transform: translate3d(0, 10px, 0);
+          transform: translate3d(0, 10px, 0);
+        }
+      }
+      .animate__shakeY {
+        -webkit-animation-name: shakeY;
+        animation-name: shakeY;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="animate__shakeY">
+      <a href="https://github.com/anuraghazra/github-readme-stats">
+        <img
+          height="200"
+          align="center"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=0753Ljuc&layout=compact&theme=ambient_gradient"
+        />
+      </a>
+      <a href="https://github.com/anuraghazra/github-readme-stats">
+        <img
+          height="200"
+          align="center"
+          src="https://github-readme-stats.vercel.app/api?username=0753Ljuc&theme=ambient_gradient"
+        />
+      </a>
+    </div>
+  </body>
+</html>
